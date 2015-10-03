@@ -9,6 +9,8 @@
 *.so
 *.dll
 
+/_build
+
 mlcpp.exe
 GLX.mli
 GLX_P2T.mli

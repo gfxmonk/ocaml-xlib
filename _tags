@@ -1,0 +1,1 @@
+true: package(camlp4.macro), syntax(camlp4o)
