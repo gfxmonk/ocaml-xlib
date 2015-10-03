@@ -509,6 +509,17 @@ ml_XGetInputFocus( value dpy )
 }
 
 CAMLprim value
+ml_XSetTransientForHint( value dpy, value win, value parent )
+{
+    XSetTransientForHint(
+        Display_val(dpy), 
+        Window_val(win),
+        Window_val(parent)
+    );
+    return Val_unit;
+}
+
+CAMLprim value
 ml_XUngrabServer( value dpy )
 {
     //GET_STATUS
