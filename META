@@ -3,7 +3,7 @@ version = "20110221"
 description = "OCaml bindings to the Xlib library"
 license = "LGPL + OCaml linking exception"
 requires = ""
-directory = "+Xlib"
+#directory = "+Xlib"
 archive(byte) = "Xlib.cma"
 archive(native) = "Xlib.cmxa"
 

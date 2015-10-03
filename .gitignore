@@ -8,6 +8,8 @@
 *.o
 *.so
 
+/_build
+
 mlcpp.exe
 GLX.mli
 Xt.mli
